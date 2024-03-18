@@ -1,0 +1,171 @@
+{
+    "customer": {
+        "data": {
+            "id": "cus_1nEMvMiKItM7calUGFV0Lk",
+            "name": "Benzo",
+            "registered_name": null,
+            "logo_url": null
+        }
+    },
+    "user": "usr_bg3xFBj7hd5aKp2Vxgw4m",
+    "payroll_profile": null,
+    "role": "rol_2Uy2nWUl8zErvbIdp1ReSw",
+    "permissions": [
+        "accounts.manage",
+        "accounts.view",
+        "apps.manage",
+        "apps.view",
+        "authorization_rules.manage",
+        "authorization_rules.view",
+        "capital.manage",
+        "capital.view",
+        "cards.manage",
+        "cards.request",
+        "cards.view",
+        "cash_flow_in.manage",
+        "cash_flow_in.view",
+        "cash_flow_out.manage",
+        "cash_flow_out.view",
+        "contacts.invite",
+        "contacts.manage",
+        "contacts.view",
+        "employees.invite",
+        "employees.manage",
+        "employees.view",
+        "kyc.manage",
+        "kyc.view",
+        "payable.authorize",
+        "payable.execute",
+        "payable.manage",
+        "payable.view",
+        "payroll.execute",
+        "payroll.manage",
+        "payroll.setup",
+        "payroll.view",
+        "profile.close",
+        "profile.manage",
+        "profile.view",
+        "receivable.authorize",
+        "receivable.execute",
+        "receivable.manage",
+        "receivable.view",
+        "roles.manage",
+        "roles.view",
+        "savings.liquidate",
+        "savings.manage",
+        "savings.view",
+        "settings.manage",
+        "settings.view",
+        "signatories.manage",
+        "signatories.view",
+        "sub_accounts.create",
+        "subscriptions.create",
+        "subscriptions.manage",
+        "subscriptions.view",
+        "team.invite",
+        "team.manage",
+        "team.view",
+        "terminals.manage",
+        "terminals.request",
+        "terminals.view",
+        "transfers.execute",
+        "transfers.manage",
+        "transfers.view"
+    ],
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJhdXRoLmdldGJyYXNzLmNvIiwiZXhwIjoxNzA5ODEwMTE5LCJpYXQiOjE3MDk4MDY1MTksIm5iZiI6MTcwOTgwNjUxOSwiYXBpX2NsaWVudCI6ImFwcF8xVk45eFhJUFpIVXN5MVdGVmQwRnU2IiwiY3VzdG9tZXIiOiJjdXNfMW5FTXZNaUtJdE03Y2FsVUdGVjBMayIsInVzZXIiOiJ1c3JfYmczeEZCajdoZDVhS3AyVnhndzRtIiwiaXNfdGVtcG9yYXJ5Ijp0cnVlLCJwYXlyb2xsX2N1c3RvbWVyX3Byb2ZpbGUiOm51bGx9.pZtkiaDKZSXR8oJoTrlUJjAZ8btTaG80pqEetlpzpuSHaQ-XMMB4MnUY3Zu0RA85M-19mIF5Cy6FmCYoutCfOOZd7AePnQizOvN_DEWB_pv4XYZmcQ-ekKuETPvH2USll5c1N8C9DUkFbLTEZ590jLJDeO7rZvRHtngQ8cCTFF4",
+    "token_expiry": 1709810119,
+    "enforce_2fa": true,
+    "otp_channel": "email",
+    "pin_enabled": false,
+    "closure_request": null,
+    "usage_statistics": {
+        "administration": {
+            "used": false,
+            "records": 1
+        },
+        "capital": {
+            "used": false,
+            "records": 0,
+            "agreement_accepted_at": null
+        },
+        "cards": {
+            "requests": 0,
+            "cards": 0
+        },
+        "contacts": {
+            "used": false,
+            "records": 0
+        },
+        "incoming_invoices": {
+            "used": false,
+            "records": 0
+        },
+        "outgoing_invoices": {
+            "used": false,
+            "records": 0
+        },
+        "payments": {
+            "used": false,
+            "records": 0
+        },
+        "savings_plans": {
+            "used": false,
+            "records": 0
+        }
+    },
+    "module_access": {
+        "accounts": {
+            "enabled": true
+        },
+        "administration": {
+            "enabled": true
+        },
+        "bpo_bulk_payments": {
+            "enabled": false
+        },
+        "bpo_crossborder_payments": {
+            "enabled": false
+        },
+        "capital": {
+            "enabled": false
+        },
+        "cards": {
+            "enabled": false
+        },
+        "contacts": {
+            "enabled": true
+        },
+        "dashboard": {
+            "enabled": true
+        },
+        "invoices": {
+            "enabled": true
+        },
+        "payments": {
+            "enabled": true
+        },
+        "payroll": {
+            "enabled": true
+        },
+        "savings": {
+            "enabled": true
+        },
+        "terminals": {
+            "enabled": true
+        },
+        "transactions": {
+            "enabled": true
+        }
+    },
+    "feature_restrictions": {
+        "cards_physical": {
+            "is_restricted": true,
+            "type": "feature",
+            "module": "cards"
+        }
+    },
+    "supported_intl_currencies": [
+        "USD"
+    ],
+    "additional_properties": null
+}

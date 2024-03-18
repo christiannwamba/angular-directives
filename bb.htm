@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my page</title>
+  </head>
+  <body>
+    <template id="hello_temp">
+      <h2>hello there</h2>
+    </template>
+    <div id="outlet"></div>
+    <script>
+      const template = document.querySelector("#hello_temp");
+      const outlet = document.querySelector("#outlet");
+
+      const templateContent = template.content;
+      outlet.appendChild(templateContent.cloneNode(true));
+    </script>
+  </body>
+</html>
